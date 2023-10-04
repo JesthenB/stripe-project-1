@@ -1,7 +1,7 @@
 import React from "react";
 
-const Hero = () => {
-    return <h2>hero component</h2>  
+const Sidebar = () => {
+    return <h2>Sidebar component</h2>  
     }
 
-export default Hero
+export default Sidebar
