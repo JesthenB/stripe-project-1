@@ -1,4 +1,6 @@
-import React, { usestate, usecontext } from "react";
+'use client'
+import React, { usestate, usecontext, createContext } from "react";
+
 // import sublinks from "./data";
 
 const AppContext = React.createContext();
@@ -22,6 +24,7 @@ export const AppProvider = ({ children }) => {
   const closeSubmenu = () => {
     setIsSubmenuOpen(false);
   };
+
 
   return (
     <AppContext.Provider

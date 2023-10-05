@@ -8,11 +8,11 @@ import Submenu from './components/Submenu';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar/>
       <Sidebar/>
       <Hero/>
       <Submenu/>
-    </div>
+    </>
   )
 }
